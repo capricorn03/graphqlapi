@@ -1,0 +1,23 @@
+
+$ npm init -y
+Wrote to B:\___proj\_____my_proj\graphqlapi\package.json:
+
+{
+  "name": "graphqlapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+$ npm pkg set type="module"
+
+$ npm install @apollo/server graphql
+
+$ nodemon index.js 
+
